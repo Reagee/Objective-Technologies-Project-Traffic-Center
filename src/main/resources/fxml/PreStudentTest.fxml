@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DialogPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.controller.PreExamController">
+   <children>
+      <DialogPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1280.0">
+          <header>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="200.0" prefWidth="320.0">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="70.0" layoutY="57.0" lineSpacing="10.0" prefHeight="162.0" prefWidth="1179.0" text="Przed Tobą egzamin teoretyczny na prawo jazdy KAT.B. Test składa się z dwóch części. Pierwsza część zawiera 15pytań  wielokrotnego wyboru dotyczących zachowania na drodze. Druga część składa się z 10 pytań z zakresu wiedzy teoretycznej. Podczas każdego pytania przysługuje 10sekund na przeczytanie pytania oraz 10 sekund na odpowiedź. By ukończyć egzamin z wynikiem pozytwnym należy uzyskać min. 74% pozytywnych odpowiedzi." textAlignment="CENTER" textOverrun="CLIP" wrapText="true">
+                     <font>
+                        <Font name="Arial" size="20.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+          </header>
+          <content>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="200.0" prefWidth="320.0">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="127.0" layoutY="271.0" prefHeight="45.0" prefWidth="1027.0" text="Aby zacząć test kliknij przycisk na dole." textAlignment="CENTER">
+                     <font>
+                        <Font name="Arial" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="127.0" layoutY="66.0" prefHeight="45.0" prefWidth="1027.0" text="Odpowiedzi nie można poprawiać, prosimy o przemyślane zaznaczanie odpowiedzi" textAlignment="CENTER">
+                     <font>
+                        <Font name="Arial" size="23.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="127.0" layoutY="111.0" prefHeight="45.0" prefWidth="1027.0" text="Odpowiedź błędna, jak i brak odpowiedzi jest liczony za 0 punktów." textAlignment="CENTER">
+                     <font>
+                        <Font name="Arial" size="22.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="135.0" layoutY="200.0" prefHeight="45.0" prefWidth="1027.0" text="Życzymy powodzenia !" textAlignment="CENTER">
+                     <font>
+                        <Font name="Arial" size="30.0" />
+                     </font>
+                  </Label>
+                  <Button layoutX="493.0" layoutY="425.0" mnemonicParsing="false" onAction="#startExam" prefHeight="122.0" prefWidth="312.0" text="Rozpocznij Egzamin">
+                     <font>
+                        <Font name="Arial" size="30.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+          </content>
+          <expandableContent>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="200.0" prefWidth="320.0" />
+          </expandableContent>
+      </DialogPane>
+   </children>
+</StackPane>
